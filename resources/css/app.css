@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Custom styles */
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.table th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+.badge {
+    font-weight: 500;
+    padding: 0.35em 0.65em;
+}
