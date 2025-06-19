@@ -5,7 +5,7 @@ A web application that fetches trivia questions from the Open Trivia Database an
 ## Features
 
 - User-friendly quiz interface
-- Question filtering by difficulty
+- Question filtering by difficulty and type
 - Search history tracking
 - Admin panel for managing quiz history
 - Responsive design with Bootstrap 5
