@@ -15,6 +15,8 @@ A web application that fetches trivia questions from the Open Trivia Database an
 - PHP 8.1+
 - Composer
 - MySQL
+- Node.js
+- npm
 
 ## Local Development Setup
 
@@ -47,6 +49,21 @@ A web application that fetches trivia questions from the Open Trivia Database an
 8. Open your browser and navigate to:
    ```bash
    http://localhost:8000
+
+## Access the Admin Panel
+
+1. Generate admin user:
+   ```bash
+   php artisan make:filament-user
+
+2. Open your browser and navigate to:
+   ```bash
+   http://localhost:8000/admin
+
+3. Login using the generated credentials:
+   ```bash
+   Email: your_admin_email@example.com
+   Password: your_admin_password
 
 ## Running Tests
 
