@@ -22,7 +22,7 @@ A web application that fetches trivia questions from the Open Trivia Database an
 
 1. Clone the repository:
    ```bash
-   git clone https://www.github.com/waqasahmed/trivia-app.git
+   git clone https://www.github.com/wakqasahmed/trivia-app.git
    cd trivia-app
 
 2. Install PHP dependencies:
@@ -71,3 +71,6 @@ To run the tests, use the following command:
 ```bash
 php artisan test
 ```
+
+## Improvements
+- Let's discuss over the call, shall we?
